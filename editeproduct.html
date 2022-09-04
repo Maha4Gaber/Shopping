@@ -25,14 +25,13 @@
   <div class="landing">
     <div class="container">
       <div class="header">
-        <div class="logo">Shopping Card</div>
-        
-        <div class="linksContainer">
-          <ul class="links">
+        <div class="logo"><a href="index.html">Shopping Card</a></div>
+        <ul class="links">
           <li><a href="login.html">Sign In</a></li>
           
           <li><a href="regester.html">Sign UP</a></li>
         </ul>
+        <div class="linksContainer">
           <ul class="user ">
           <li ><a href="profile.html" id="userName" ></a></li>
           <li > <a href="favorites.html">Favorites</a></li>
@@ -50,31 +49,31 @@
     </div>  
   </div>  
   
-  <div class="cards">
-    <div class="container" ">
-      <input type="search" name="search" placeholder="Search"  id="search">
-      <div class="filter">
-        <h2>Filter by size :</h2>
-        <select name="" id="felterbysize">
-          <option value="" hidden>Filter by size</option>
-          <option value="all">All</option>
+  <section class="createproduct">
+    <div class="container">
+      <div class="createform">
+        <form action="" class="updatForm">
+        <input type="text" name="" placeholder="Name..." id="productName">
+        <input type="text" name="" placeholder="Discription..." id="productdisc">
+        <select name="" id="productsize">
+          <option value="" hidden>Select Size</option>
           <option value="small">Small</option>
           <option value="medium">Medium</option>
           <option value="large">Large</option>
         </select>
+        <input type="file" name="" id="producturl">
+        <input type="submit" id="submeted" value="Update">
+      </form>
       </div>
-      <div class="products">
-      </div>
-      
     </div>
-    <a href="Create.html" class="creatBtn" >
+  </section>
+  <a href="Create.html" class="creatBtn" >
       <i class="fa fa-plus"></i>
     </a>
-  </div>
-  
   <script src="js/user.js"></script>
   <script src="js/data.js"></script>
   <script src="js/headermenu.js"></script>
-  <script src="js/script.js"></script>
+  <script src="js/editeproduct.js"></script>
+  
 </body>
 </html>
